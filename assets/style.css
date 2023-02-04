@@ -1,3 +1,42 @@
+* {
+    margin: 10px 25px 50px 40px;
+}
+
+header h1 {
+    margin-left: 50%;
+    font-family: cursive;
+    font-size: 30px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: large;
+}
+
+.about-me h2 {
+    margin-left: 10px;
+}
+
+.about-me p {
+    margin-left: 10px;
+}
+
+main img {
+    margin-left: 50%;
+    width: 25%;
+    height: auto;
+}
+
+
+
+
+
+
+
+
+/* Test media query */
 @media screen and (max-width: 850px) {
     .other-project {
         width: 100%
