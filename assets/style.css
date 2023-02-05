@@ -1,6 +1,7 @@
 * {
     margin:0;
     padding: 0;
+    background-color: gray;
 }
 
 header{
@@ -28,7 +29,7 @@ nav ul li a{
 }
 
 nav ul li a:hover{
-    color:red;
+    color:greenyellow;
     font-weight: bolder;
 }
 
@@ -80,7 +81,7 @@ li {
     border: 1px solid blueviolet; 
     border-radius: 4px;
     padding: 5px;
-    width: 100px;
+    width: 150px;
 }
 
 footer {
@@ -97,40 +98,15 @@ footer h2 {
 footer ul li {
     padding-left: 10px;
     font-family: cursive;
+    font-size: 18px;
 }
 
+@media screen and (max-width: 1200px) {
+   .groups {
+    flex-wrap: wrap;
+   }
 
-/* 
-
-
-
-section .main-project img {
-    width: 650px;
-    height: auto;
-    margin: auto;
-}
-
-section .main-project {
-    margin-left: 35%;
-    display: inline-block;
-    width: 50%;
-    height: 50%;
-    background-color: blueviolet;
-} */
-
-
-
-
-
-
-
-
-/* Test media query */
-@media screen and (max-width: 850px) {
-    .other-project {
-        width: 100%
-    }
-    header {
-        background: red;
-    }
+   .project {
+    width: 100%
+   }
 }
