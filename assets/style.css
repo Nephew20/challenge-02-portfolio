@@ -4,9 +4,15 @@
     background-color: gray;
 }
 
+:root {
+    --light-purple: #8a2be2;
+    --black: #000;
+    --even-space: space-between;
+}
+
 header{
     display: flex;
-    justify-content: space-between;
+    justify-content: var(--even-space);
     align-items: center;
     padding-left: 10px;
     padding-right: 10px;
@@ -18,7 +24,7 @@ header h1 {
 
 nav ul {
     display: flex;
-    justify-content: space-between;
+    justify-content: var(--even-space);
     
 }
 
@@ -55,7 +61,7 @@ li {
 }
 
 .about-me h2 {
-    border-right: 5px solid black;
+    border-right: 5px solid var(--black);
     padding-right: 10px;
 }
 
@@ -71,14 +77,14 @@ li {
 }
 
 .project-main img {
-    border: 1px solid blueviolet; 
+    border: 1px solid var(--light-purple); 
     border-radius: 4px;
     padding: 5px;
     width: 600px; 
 }
 
 .project img {
-    border: 1px solid blueviolet; 
+    border: 1px solid var(--light-purple); 
     border-radius: 4px;
     padding: 5px;
     width: 150px;
@@ -91,7 +97,7 @@ footer {
 }
 
 footer h2 {
-    border-right: 5px solid black;
+    border-right: 5px solid var(--black);
     padding-right: 10px;
 }
 
