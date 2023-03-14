@@ -83,6 +83,13 @@ li {
     width: 600px; 
 }
 
+.project-1 img {
+    border: 1px solid var(--light-purple); 
+    border-radius: 4px;
+    padding: 5px;
+    width: 600px;
+}
+
 .project img {
     border: 1px solid var(--light-purple); 
     border-radius: 4px;
